@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import Popup from './Popup/Popup';
+import Popup from "../components/Popup/Popup";
 
 const CheckSite = () => {
   const [domain, setDomain] = useState('');
